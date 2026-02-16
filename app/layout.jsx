@@ -66,13 +66,13 @@ export default function RootLayout({ children }) {
       <head />
       <body
         className={clsx(
-          "min-h-screen bg-background font-gothic antialiased",
+          "min-h-screen bg-background font-gothic antialiased overflow-x-hidden",
           gothicA1.variable,
           myanmar.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col min-h-screen">
             <Navbar />
             <main>
               {children}

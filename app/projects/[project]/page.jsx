@@ -74,7 +74,7 @@ export default async function ProjectItemPage({ params }) {
         src={coverImage}
         width={1280}
         height={600}
-        className="object-cover w-screen h-[40vh] sm:h-[80vh]"
+        className="object-cover w-full h-[40vh] sm:h-[80vh]"
       />
       <div className="mx-auto max-w-7xl py-8">
         <h1 className={title()}>{projectTitle}</h1>

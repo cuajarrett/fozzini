@@ -23,7 +23,7 @@ export default function HeroCarousel({ heroSection }) {
             src={image.desktopSrc}
             alt={image.alt}
             loading={index === 0 ? "eager" : "lazy"}
-            className="object-cover object-bottom hidden w-screen h-[80vh] lg:h-[100vh] md:block"
+            className="object-cover object-bottom hidden w-full h-[80vh] lg:h-[100vh] md:block"
             height={3840}
             width={2048}
           />
@@ -31,7 +31,7 @@ export default function HeroCarousel({ heroSection }) {
             src={image.mobileSrc}
             alt={image.alt}
             loading={index === 0 ? "eager" : "lazy"}
-            className="object-cover object-bottom w-screen h-[80vh] lg:h-[100vh] md:hidden"
+            className="object-cover object-bottom w-full h-[80vh] lg:h-[100vh] md:hidden"
             height={2048}
             width={3840}
           />
