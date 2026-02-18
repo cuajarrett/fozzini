@@ -8,7 +8,7 @@ export const ABOUT = {
     description: (
       <>
         <p>
-          Here at Fozzini Lifestyles Concepts, Inc., Inc. we believe that living
+          Here at Fozzini Lifestyles Concepts, Inc., we believe that living
           in comfort and hand-in-hand with sophistication and style. We produce
           and customize high-calibur modular cabinetry that fits your preference
           and lifestyle.
@@ -86,3 +86,4 @@ export const ABOUT = {
       "22 Rincon Road, Malinta, 1440, Valenzuela City, Metro Manila, Philippines",
   },
 };
+
